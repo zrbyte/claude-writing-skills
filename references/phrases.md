@@ -1,128 +1,105 @@
-# Phrases to Remove
+# Phrases to Remove (Physics Edition)
+
+## Protected Phrases — Do NOT Remove
+
+These are standard academic physics vocabulary. Flagging them as slop destroys legitimate scientific writing.
+
+**Observation verbs:** "We observe," "We find," "We demonstrate," "We show," "We reveal," "We report," "We measure," "We investigate," "Our results indicate," "Our results suggest," "Our measurements show"
+
+**Evidence linking:** "This is consistent with," "In good agreement with," "We can attribute this to," "This resolves," "This indicates"
+
+**Figure references:** "As shown in Fig. X," "As illustrated in Fig. X," "In Fig. X, we present," "The inset shows"
+
+**Structural discourse:** "Here, we," "To investigate...," "In order to...," "As a first step," "Next, we"
+
+**Legitimate hedging:** "This suggests," "This indicates," "We cannot rule out," "It is likely that"
+
+---
+
+## Significance Inflation
+
+These announce importance without demonstrating it. Replace with the specific finding.
+
+- "revolutionary" / "revolutionary breakthrough"
+- "unprecedented"
+- "landmark" / "landmark study"
+- "paradigm shift" / "paradigm-shifting"
+- "game-changing" / "game changer"
+- "paves the way for..."
+- "sheds new light on..."
+- "opens new avenues for..."
+- "has profound implications for..."
+- "marks a major advance in..."
+- "of great importance for..."
+- "of fundamental importance" (unless followed by a specific statement of what and why)
+
+**Instead:** State the specific result that earns the claim. "We demonstrate a 20-fold asymmetry in reflection coefficients" needs no announcement of its significance.
+
+## Vague Gesturing (without quantification)
+
+Sentences that gesture at importance without naming the specific thing:
+
+- "plays a crucial role in..." (name the role, add numbers)
+- "plays an important role in..." (same)
+- "has important implications for..." (state the implication)
+- "this is of particular interest because..." (state the interest)
+- "enables a wide range of applications" (name one application with specifics)
+- "may find applications in..." (only if a specific application is named)
+- "paves the way for future studies" (cut entirely or name the specific follow-up)
 
 ## Throat-Clearing Openers
 
-Remove these announcement phrases. State the content directly.
+Remove these. State the content directly.
 
-- "Here's the thing:"
-- "Here's what [X]"
-- "Here's this [X]"
-- "Here's that [X]"
-- "Here's why [X]"
-- "The uncomfortable truth is"
-- "It turns out"
-- "The real [X] is"
-- "Let me be clear"
-- "The truth is,"
-- "I'll say it again:"
-- "I'm going to be honest"
-- "Can we talk about"
-- "Here's what I find interesting"
-- "Here's the problem though"
+- "In this work, we present..." → start with the finding
+- "In this paper, we report..." → start with the finding
+- "Here we discuss..." → start with the content
+- "In conclusion, we have shown..." → "We show that..." or state the result directly
+- "It is worth noting that..." → state the thing
+- "It is important to note that..." → state the thing
+- "It should be noted that..." → state the thing
+- "Needless to say..." → cut
+- "As mentioned above..." → either refer specifically or cut
+- "As we have shown..." → state it again concisely or cross-reference the figure
 
-Any "here's what/this/that" construction is throat-clearing before the point. Cut it and state the point.
+## Over-Hedging
+
+Legitimate uncertainty needs calibrated hedging. This is excessive:
+
+- "it might possibly be the case that..." → "this suggests that..."
+- "one could perhaps argue that..." → "this indicates that..."
+- "it is conceivable that..." → only if genuine speculation is warranted
+- "it may or may not be..." → commit to the interpretation or state the specific uncertainty
 
 ## Emphasis Crutches
 
-These add no meaning. Delete them.
+These add no information in physics writing:
 
-- "Full stop." / "Period."
-- "Let that sink in."
-- "This matters because"
-- "Make no mistake"
-- "Here's why that matters"
+- "Strikingly," / "Remarkably," / "Notably," as sentence openers — use the data instead
+- "Interestingly," — cut; if it is interesting, the result shows it
+- "Crucially," / "Importantly," — cut the adverb; state the thing
+- "Significantly," as filler — it has a statistical meaning; do not dilute it
+- "Full stop." / "Period." / "Let that sink in." — never in physics writing
 
-## Business Jargon
+## Abstract Filler
 
-Replace with plain language.
+Phrases that waste abstract word count without adding information:
 
-| Avoid | Use instead |
-|-------|-------------|
-| Navigate (challenges) | Handle, address |
-| Unpack (analysis) | Explain, examine |
-| Lean into | Accept, embrace |
-| Landscape (context) | Situation, field |
-| Game-changer | Significant, important |
-| Double down | Commit, increase |
-| Deep dive | Analysis, examination |
-| Take a step back | Reconsider |
-| Moving forward | Next, from now |
-| Circle back | Return to, revisit |
-| On the same page | Aligned, agreed |
+- "In this study/work/paper, we..."
+- "We have performed/conducted/carried out..."
+- "The results of our study show..."
+- "In conclusion, we have demonstrated..."
+- "These results have important implications for the field of..."
+- "Further studies are needed to..."
+- "To the best of our knowledge..." (acceptable only in rare cases where a novelty claim needs explicit qualification)
 
-## Adverbs
+## Adverbs (in most contexts)
 
-Kill all adverbs. No -ly words. No softeners, no intensifiers, no hedges.
+- "very" / "quite" / "rather" — replace with the measured value
+- "truly" / "genuinely" / "really" — cut
+- "clearly" as a hedge-remover ("clearly demonstrates" → "demonstrates")
+- "simply" / "just" — cut
+- "fundamentally" / "inherently" — cut unless technically precise
+- "inevitably" — rarely justified in physics
 
-Specific offenders:
-
-- "really"
-- "just"
-- "literally"
-- "genuinely"
-- "honestly"
-- "simply"
-- "actually"
-- "deeply"
-- "truly"
-- "fundamentally"
-- "inherently"
-- "inevitably"
-- "interestingly"
-- "importantly"
-- "crucially"
-
-Also cut these filler phrases:
-
-- "At its core"
-- "In today's [X]"
-- "It's worth noting"
-- "At the end of the day"
-- "When it comes to"
-- "In a world where"
-- "The reality is"
-
-## Meta-Commentary
-
-Remove self-referential asides. The essay should move, not announce its own structure.
-
-- "Hint:"
-- "Plot twist:" / "Spoiler:"
-- "You already know this, but"
-- "But that's another post"
-- "X is a feature, not a bug"
-- "Dressed up as"
-- "The rest of this essay explains..."
-- "Let me walk you through..."
-- "In this section, we'll..."
-- "As we'll see..."
-- "I want to explore..."
-
-## Performative Emphasis
-
-False intimacy or manufactured sincerity:
-
-- "creeps in"
-- "I promise"
-- "They exist, I promise"
-
-## Telling Instead of Showing
-
-Announcing difficulty or significance rather than demonstrating it:
-
-- "This is genuinely hard"
-- "This is what leadership actually looks like"
-- "This is what X actually looks like"
-- "actually matters"
-
-## Vague Declaratives
-
-Sentences that announce importance without naming the specific thing. Kill these.
-
-- "The reasons are structural"
-- "The implications are significant"
-- "This is the deepest problem"
-- "The stakes are high"
-- "The consequences are real"
-
-If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
+**Exception:** Adverbs with technical meaning are protected: "linearly," "exponentially," "monotonically," "quadratically," "inversely." These are required physics vocabulary.

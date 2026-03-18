@@ -1,59 +1,91 @@
-# Before/After Examples
+# Before/After Examples — Condensed Matter Physics
 
-## Example 1: Throat-Clearing + Binary Contrast
+## Example 1: Abstract opener
 
 **Before:**
-> "Here's the thing: building products is hard. Not because the technology is complex. Because people are complex. Let that sink in."
+> "In this work, we present a comprehensive study of hydrocarbon contamination on van der Waals materials using scanning tunneling microscopy and spectroscopy. Our results have important implications for surface science measurements."
 
 **After:**
-> "Building products is hard. Technology is manageable. People aren't."
+> "Hydrocarbon contamination suppresses the phonon-induced gap near the Fermi energy in STM measurements of graphene and graphite, resolving a long-standing inconsistency in the literature. Using low-temperature STM and infrared spectroscopy, we identify the contaminant as self-assembled normal alkanes with chain lengths of 20–26 carbons."
 
-**Changes:** Removed opener, binary contrast structure, and emphasis crutch. Direct statements.
+**Changes:** Removed announcement opener and vague significance statement. Led with the specific finding and the specific measurement.
 
 ---
 
-## Example 2: Filler + Unnecessary Reassurance
+## Example 2: Significance inflation
 
 **Before:**
-> "It turns out that most teams struggle with alignment. The uncomfortable truth is that nobody wants to admit they're confused. And that's okay."
+> "These results represent a landmark advance in the field of van der Waals materials and open new avenues for future research into correlated electron systems. Our work paves the way for using rhombohedral graphite as a platform for quantum computation."
 
 **After:**
-> "Teams struggle with alignment. Nobody admits confusion."
+> "Our work establishes rhombohedral graphite as a platform for studying strong correlations in one of the simplest possible crystal structures, with a flat band arising from pure stacking geometry rather than moiré engineering."
 
-**Changes:** Cut hedging ("most"), removed throat-clearing phrases, deleted permission-granting ending.
+**Changes:** Cut "landmark advance," "opens new avenues," "paves the way." Replaced with the specific finding that earns its own weight.
 
 ---
 
-## Example 3: Business Jargon Stack
+## Example 3: Missing quantification
 
 **Before:**
-> "In today's fast-paced landscape, we need to lean into discomfort and navigate uncertainty with clarity. This matters because your competition isn't waiting."
+> "We observe a gap opening at the Fermi energy at low temperatures and high magnetic fields. The gap is significant and grows with applied field."
 
 **After:**
-> "Move faster. Your competition is."
+> "We observe a gap of 30 meV opening at the Fermi energy at T = 4.2 K. The gap grows linearly with applied magnetic field, reaching 80 meV at B = 8 T."
 
-**Changes:** Eliminated jargon entirely. Core message in six words.
+**Changes:** Added temperature, values, units, and functional field dependence. Replaced "significant" with the measured magnitude.
 
 ---
 
-## Example 4: Dramatic Fragmentation
+## Example 4: Hidden actor in results
 
 **Before:**
-> "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
+> "A Coulomb gap was observed in the tunneling conductance spectrum. The feature was attributed to many-body interactions in the flat band."
 
 **After:**
-> "Speed, quality, cost—pick two."
+> "We observe a Coulomb gap in the tunneling conductance spectrum. We attribute this feature to many-body interactions in the flat band."
 
-**Changes:** Single sentence. No performative emphasis.
+**Changes:** Restored "we" as the actor in result statements. Note: passive remains correct in methods sections — do not over-correct there.
 
 ---
 
-## Example 5: Rhetorical Setup
+## Example 5: Throat-clearing in results paragraph
 
 **Before:**
-> "What if I told you that the best teams don't optimize for productivity? Here's what I mean: they optimize for learning. Think about it."
+> "It is worth noting that the STM tip penetrates the molecular layer, and one can observe the atomic structure of the graphite underneath. This is interesting because it suggests that the contamination layer is not as opaque as previously assumed."
 
 **After:**
-> "The best teams optimize for learning, not productivity."
+> "The STM tip penetrates the molecular layer, revealing the atomic structure of the graphite underneath. The contamination layer transmits tunneling current at tip-sample distances comparable to clean surfaces, contrary to earlier assumptions."
 
-**Changes:** Direct claim. No rhetorical scaffolding.
+**Changes:** Removed "it is worth noting that" and "this is interesting because." Stated the observation and its direct implication, with a specific comparison replacing the vague claim.
+
+---
+
+## Example 6: Over-hedged claim
+
+**Before:**
+> "It might possibly be the case that the observed splitting is related to the valley degree of freedom, although it is conceivable that other mechanisms could also contribute."
+
+**After:**
+> "We attribute the splitting to the valley degree of freedom. Spin-orbit coupling contributes negligibly at the measured field strengths (B < 10 T)."
+
+**Changes:** Committed to the interpretation. Named the ruled-out alternative with the reason. Replaced "it might possibly" with "we attribute" and backed it with a quantitative statement.
+
+---
+
+## Example 7: Protected phrases — do not change
+
+**This is correct physics writing. Do not modify.**
+
+> "We demonstrate that the strong layer dependence of the band structure can be harnessed to identify rhombohedral graphite without reading out the stacking sequence. As shown in Fig. 2(a), the electronic Raman scattering signal grows monotonically with layer number in ABC-stacked graphite while remaining absent in ABA-stacked samples. Our results are in good agreement with tight-binding calculations."
+
+"We demonstrate," "as shown in Fig. 2(a)," "our results are in good agreement with" — all correct and should not be flagged.
+
+---
+
+## Example 8: Methods passive voice — do not change
+
+**This is correct physics writing. Do not modify.**
+
+> "All samples were cleaved in ultra-high vacuum at a base pressure of 5 × 10⁻¹¹ Torr and immediately transferred to the STM stage. Tunneling spectra were recorded using a standard lock-in technique with a modulation amplitude of 2 mV at 733 Hz. All data shown represent raw measurements without smoothing."
+
+Passive voice throughout is correct here. The experimental community is implied; naming "we" for every step would be redundant and awkward.
