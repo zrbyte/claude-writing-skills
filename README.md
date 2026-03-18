@@ -2,8 +2,6 @@
 
 A skill for removing AI tells from condensed matter physics prose.
 
-<img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
-
 ## What this is
 
 AI writing has patterns. In general prose, these are predictable phrases, structures, and rhythms. In academic physics writing, the problem is different: AI inflates significance, omits quantification, and breaks the problem-solution narrative structure that physics papers require. This skill teaches Claude to catch the right patterns — without destroying the legitimate conventions of scientific writing.
